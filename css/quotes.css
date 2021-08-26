@@ -1,0 +1,63 @@
+@import url("https://fonts.googleapis.com/css2?family=Lobster&family=Qwigley&family=Roboto:wght@300;400;500;700&family=Sail&display=swap");
+
+html {
+  font-size: 62.5%;
+}
+body {
+  font-family: "Qwigley", cursive;
+  /* font-family: "Sail", cursive; */
+  /* font-family: "Lobster", cursive; */
+  /* font-family: "Roboto", sans-serif; */
+  font-size: 1.6rem;
+  background-color: #fdefef;
+  color: hsl(32, 28%, 65%);
+  line-height: 1.2;
+  letter-spacing: 1.4px;
+  font-weight: 400;
+  margin: 0;
+  padding: 0;
+  display: grid;
+  place-items: center;
+  height: 100vh;
+}
+header {
+  margin: 0;
+  padding: 0;
+  width: 60%;
+  margin-top: -10rem;
+}
+
+h1 {
+  font-size: 7rem;
+  text-align: center;
+  font-family: "Sail", cursive;
+}
+
+.container {
+  background-color: #f4dfd0;
+  margin: 2rem auto;
+  padding: 3rem;
+  text-align: center;
+  font-size: 4rem;
+  border: 3px solid #cdbba7;
+  border-radius: 1rem;
+}
+blockquote {
+  font-size: 3rem;
+  margin-bottom: 3rem;
+  color: hsl(32, 28%, 65%);
+  font-weight: 400;
+  font-family: "Roboto", sans-serif;
+}
+
+button {
+  margin-top: -20rem;
+  padding: 1.2rem 1.6rem;
+  font-size: 2rem;
+  /* display: inline-block; */
+  border: 2px solid #bfa78d;
+  border-radius: 3px;
+  background-color: #cdbba7;
+  color: #fff;
+  cursor: pointer;
+}
